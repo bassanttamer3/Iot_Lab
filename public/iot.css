@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #114c15;
+  color: #F1F8E9; 
+  justify-content: center;  /* يوسّط المحتوى أفقيًا */
+  align-items: center;      /* يوسّط المحتوى عموديًا */
+  height: 100vh;            /* يملأ الشاشة بالكامل */
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #19612a; 
+  color: #F1F8E9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.Form {
+  margin: 50px auto;
+  padding: 30px;
+  width: 300px;
+  background-color: #2C6B2F; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px;
+  border: 1px solid #1B5E20; 
+}
+
+.Form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #F1F8E9; 
+}
+
+.Form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #1B5E20; 
+  border-radius: 5px;
+  background-color: #d5dbd6; 
+}
+
+.Form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #1B5E20; 
+  background-color: #66BB6A; 
+  color: white; 
+  border-radius: 5px;
+}
+
+.Form button:hover {
+  background-color: #4CAF50; 
+  color: white; 
+  transform: scale(1.06); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#submissions {
+  background-color: #2C6B2F; 
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;  /* لضبط النص في المنتصف */
+  display: inline-block; /* حجم العنصر يتناسب مع المحتوى */
+  margin-left: 450px; 
+  margin-bottom: 50px;
+}
+
+#submissionList {
+  background-color: #2C6B2F; 
+  padding: 5px;
+  border-radius: 8px;
+  display: inline-block; /* يتناسب مع المحتوى */
+}
+
+#submissionList li {
+  background-color: #66BB6A; 
+  color: #F1F8E9; 
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #19612a; 
+  color: #F1F8E9; 
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3); 
+}

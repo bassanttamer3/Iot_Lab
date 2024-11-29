@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="iot.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Your Details Matter</h1>
+    </div>
+
+    <div class="Form">
+        <form id="myForm">
+            <label for="User Name">User Name</label>
+            <input id="userName" name="userName" type="text" placeholder="EX: Bassant Tamer" required>
+            <br>
+            <label for="Number">Phone Number</label>
+            <input id="number" name="number" type="tel" placeholder="EX: 201212597111" pattern="^\+?[0-9\s\-]{7,15}$" required>
+            <br>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="EX: bassanttamer3@gmail.com" required>
+            <br>
+            <label for="dob">Date of Birth</label>
+            <input id="dob" name="dob" type="date" required>
+            <br>
+            <button type="submit">Submit</button> 
+        </form>
+    </div>
+
+    <div id="submissions">
+        <h2>Submitted Data:</h2>
+        <br>
+        <ul id="submissionList">
+        
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Form. All rights reserved.</p>
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="iot.js"></script>
+</body>
+</html>
